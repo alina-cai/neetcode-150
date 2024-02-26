@@ -26,3 +26,5 @@ this is just a personal tracker that'll hopefully motivate myself into making le
 - [ ] intervals
 - [ ] math & geometry
 - [ ] bit manipulation
+
+###### start date: feb 22, 2024
