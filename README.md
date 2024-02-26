@@ -8,21 +8,21 @@ this is just a personal tracker that'll hopefully motivate myself into making le
 
 ### topics:
 
-- [ ] Arrays & Hashing
-- [ ] Two Pointers
-- [ ] Sliding Window
-- [ ] Stack
-- [ ] Binary Search
-- [ ] Linked List
-- [ ] Trees
-- [ ] Tries
-- [ ] Heap / Priority Queue
-- [ ] Backtracking
-- [ ] Graphs
-- [ ] Advanced Graphs
-- [ ] 1-D Dynamic Programming
-- [ ] 2-D Dynamic Programming
-- [ ] Greedy
-- [ ] Intervals
-- [ ] Math & Geometry
-- [ ] Bit Manipulation
+- [ ] arrays & hashing
+- [ ] two pointers
+- [ ] sliding window
+- [ ] stack
+- [ ] binary search
+- [ ] linked list
+- [ ] trees
+- [ ] tries
+- [ ] heap / priority Queue
+- [ ] backtracking
+- [ ] graphs
+- [ ] advanced graphs
+- [ ] 1-d dynamic programming
+- [ ] 2-d dynamic programming
+- [ ] greedy
+- [ ] intervals
+- [ ] math & geometry
+- [ ] bit manipulation
