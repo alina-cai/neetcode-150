@@ -8,7 +8,7 @@ this is just a personal tracker that'll hopefully motivate myself into making le
 
 ### topics:
 
-- [ ] arrays & hashing
+- [x] arrays & hashing
 - [ ] two pointers
 - [ ] sliding window
 - [ ] stack
