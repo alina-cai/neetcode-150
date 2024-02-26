@@ -8,6 +8,7 @@ class Codec:
             res += str(len(s)) + '#' + s
 
         return res
+        
 
     def decode(self, s: str) -> List[str]:
         """Decodes a single string to a list of strings.
