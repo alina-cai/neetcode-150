@@ -16,7 +16,7 @@ this is just a personal tracker that'll hopefully motivate myself into making le
 - [ ] linked list
 - [ ] trees
 - [ ] tries
-- [ ] heap / priority Queue
+- [ ] heap / priority queue
 - [ ] backtracking
 - [ ] graphs
 - [ ] advanced graphs
