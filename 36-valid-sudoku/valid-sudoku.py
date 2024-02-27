@@ -6,23 +6,23 @@ class Solution:
 
         for r in range(9):
             for c in range(9):
-                square = board[r][c]
+                box = board[r][c]
 
-                if square == ".":
+                if box == ".":
                     continue
 
                 if (
-                    square in rows[r] or 
-                    square in cols[c] or
-                    square in squares[(r // 3, c // 3)]
+                    box in rows[r] or
+                    box in cols[c] or 
+                    box in squares[(r // 3, c // 3)]
                 ):
                     return False
 
-                rows[r].add(square)
-                cols[c].add(square)
-                squares[(r // 3, c // 3)].add(square)
+                rows[r].add(box)
+                cols[c].add(box)
+                squares[(r // 3, c // 3)].add(box)
 
         return True
-    
+
 # time: O(n ^ 2)
 # space: O(1)
