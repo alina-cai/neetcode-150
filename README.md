@@ -9,7 +9,7 @@ this is just a personal tracker that'll hopefully motivate myself into making le
 ### topics:
 
 - [x] arrays & hashing
-- [ ] two pointers
+- [x] two pointers
 - [ ] sliding window
 - [ ] stack
 - [ ] binary search
