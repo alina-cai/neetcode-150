@@ -4,9 +4,7 @@ class Solution:
         lowest = prices[0]
 
         for p in prices:
-            if p < lowest:
-                lowest = p
-
+            lowest = min(lowest, p)
             res = max(res, p - lowest)
 
         return res
