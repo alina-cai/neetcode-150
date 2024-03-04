@@ -11,7 +11,7 @@ this is just a personal tracker that'll hopefully motivate myself into making le
 - [x] arrays & hashing
 - [x] two pointers
 - [x] sliding window
-- [ ] stack
+- [x] stack
 - [ ] binary search
 - [ ] linked list
 - [ ] trees
