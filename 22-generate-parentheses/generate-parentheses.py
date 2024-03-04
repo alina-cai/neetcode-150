@@ -6,13 +6,12 @@ class Solution:
         def backtrack(opened, closed):
             if opened == closed == n:
                 res.append("".join(stack))
-                return 
 
             if opened < n:
                 stack.append("(")
                 backtrack(opened + 1, closed)
                 stack.pop()
-            
+
             if closed < opened:
                 stack.append(")")
                 backtrack(opened, closed + 1)
