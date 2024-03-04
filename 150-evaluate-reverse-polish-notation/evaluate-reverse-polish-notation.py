@@ -20,7 +20,7 @@ class Solution:
             else:
                 stack.append(int(t))
 
-        return stack[-1]
+        return stack[0]
 
 # time: O(n)
 # space: O(n)
