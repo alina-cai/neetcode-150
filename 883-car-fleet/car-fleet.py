@@ -12,5 +12,5 @@ class Solution:
 
         return len(stack)
 
-# time: O(n)
+# time: O(n * log(n))
 # space: O(n)
