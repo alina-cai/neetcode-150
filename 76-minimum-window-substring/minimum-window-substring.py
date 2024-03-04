@@ -5,8 +5,8 @@ class Solution:
 
         countT = {}
 
-        for i in range(len(t)):
-            countT[t[i]] = 1 + countT.get(t[i], 0)
+        for c in t:
+            countT[c] = 1 + countT.get(c, 0)
 
         need = len(countT)
         have = 0
@@ -17,7 +17,7 @@ class Solution:
         for r in range(len(s)):
             c = s[r]
             window[c] = 1 + window.get(c, 0)
-            
+
             if c in countT and window[c] == countT[c]:
                 have += 1
 
@@ -25,9 +25,10 @@ class Solution:
                 if r - l + 1 < res[0]:
                     res = r - l + 1, l, r
 
-                window[s[l]] -= 1
-                
-                if s[l] in countT and window[s[l]] < countT[s[l]]:
+                c2 = s[l]
+                window[c2] -= 1
+
+                if c2 in countT and window[c2] < countT[c2]:
                     have -= 1
 
                 l += 1
@@ -35,4 +36,4 @@ class Solution:
         return "" if res[0] == float('inf') else s[res[1]:res[2] + 1]
 
 # time: O(m + n)
-# space: O(n)
+# space: O(m + n)
