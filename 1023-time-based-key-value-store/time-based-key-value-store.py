@@ -29,7 +29,7 @@ class TimeMap:
         return res
 
 # time: O(log(n))
-# space: O(n)
+# space: O(m * n)
 
         
 
