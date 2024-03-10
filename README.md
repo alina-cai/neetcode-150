@@ -12,7 +12,7 @@ this is just a personal tracker that'll hopefully motivate myself into making le
 - [x] two pointers
 - [x] sliding window
 - [x] stack
-- [ ] binary search
+- [x] binary search
 - [ ] linked list
 - [ ] trees
 - [ ] tries
